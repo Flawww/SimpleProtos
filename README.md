@@ -26,6 +26,7 @@ proto_reader((uint8_t*)embedded_test_data, sizeof(embedded_test_data)).print();
 ```
 This produces something like
 ![protodump](https://i.imgur.com/ktBuC26.png)
+
 Where you see the fields, the datatype of the field, a hex-dump and an ascii-dump
 
 ### Implementation of proto structs
